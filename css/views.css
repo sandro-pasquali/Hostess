@@ -1,0 +1,158 @@
+
+/*
+ * general calendar
+ */
+
+.calendar_table
+  {
+    border-bottom: 1px #000000 solid;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+.calendar_head
+  {
+    padding: 4px;
+    width: 100%;
+    height: 4%;
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: Tahoma, Verdana, Arial;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+.cal_filler
+  {
+    border-top: 1px #000000 solid;
+    border-left: 1px #000000 solid;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0f0f0;
+  }
+
+
+
+
+
+
+
+
+
+/*
+ * monthly calendar
+ */
+
+.m_wd
+  {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0f0f0;
+    font-family: Tahoma, Verdana, Arial;
+    font-weight: normal;
+    font-size: 12px;
+    font-weight: bold;
+    width: 14%;
+    height: 2%;
+    text-align: center;
+    vertical-align: center;
+  }
+
+.m_d
+  {
+    border-right: 1px #000000 solid;
+    border-bottom: 1px #000000 solid;
+    margin: 0px;
+    padding: 2px;
+    padding-right: 3px;
+    padding-top: 0px;
+    font-family: Tahoma, Verdana, Arial;
+    font-weight: normal;
+    font-size: 10px;
+    width: 14%;
+    height: 14%;
+    vertical-align: top;
+    background-color: #ffffff;
+  }
+  
+.m_d_num
+  {
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    width: 100%;
+    text-align: right;
+    background-color: #ffffff;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+/*
+ * weekly calendar
+ */
+  
+.w_wd
+  {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0f0f0;
+    font-family: Tahoma, Verdana, Arial;
+    font-weight: normal;
+    font-size: 12px;
+    font-weight: bold;
+    width: 14%;
+    height: 2%;
+    text-align: center;
+    vertical-align: center;
+  }
+
+.w_d
+  {
+    border-top: 1px #000000 solid;
+    border-left: 1px #000000 solid;
+    margin: 0px;
+    padding: 2px;
+    padding-right: 3px;
+    padding-top: 0px;
+    font-family: Tahoma, Verdana, Arial;
+    font-weight: normal;
+    font-size: 10px;
+    width: 14%;
+    height: 70%;
+    vertical-align: top;
+    background-color: #ffffff;
+  }
+  
+.w_d_num
+  {
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    width: 100%;
+    text-align: right;
+    background-color: #ffffff;
+  }
+  
+  
+  
+  
+  
+
+/*
+ * general
+ */
+
+TABLE
+  {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  

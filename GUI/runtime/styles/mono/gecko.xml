@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<bindings id="activewidgets"
+	xmlns="http://www.mozilla.org/xbl"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<binding id="box">
+		<content>
+			<html:div class="aw-gecko-box aw-item-box"><children/></html:div>
+		</content>
+	</binding>
+	<binding id="init">
+		<implementation>
+			<constructor><![CDATA[
+
+				var obj = AW.object(this.id);
+
+				if (obj && obj.raiseEvent){
+					obj.setTimeout(function(){this.raiseEvent("paint")});
+				};
+
+			]]></constructor>
+		</implementation>
+	</binding>
+</bindings>

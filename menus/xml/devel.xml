@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<container id="testContainer" class="menuContainer" styleSheet="css/menu.css" iconSet="xml/testIcons.xml">
+
+	<group id="idForGroup1" class="rootElement" title="MALES" iconState="closed">
+	  <user class="element" id="126663"><![CDATA[<a onclick="showUser(this)">nickname 1</a>]]></user>
+	  <user class="element" id="12634"><![CDATA[<a onclick="showUser(this)">nickname 2</a>]]></user>
+	  <user class="element" id="2335"><![CDATA[<a onclick="showUser(this)">nickname 3</a>]]></user>
+	  <user class="element" id="456242"><![CDATA[<a onclick="showUser(this)">nickname 4</a>]]></user>
+	</group>
+	
+	<group id="idForGroup2" class="rootElement" title="FEMALES" iconState="closed">
+	  <user class="element" id="345345"><![CDATA[<a onclick="showUser(this)">nickname 1</a>]]></user>
+	  <user class="element" id="252245"><![CDATA[<a onclick="showUser(this)">nickname 2</a>]]></user>
+	  <user class="element" id="642332"><![CDATA[<a onclick="showUser(this)">nickname 3</a>]]></user>
+	  <user class="element" id="32345"><![CDATA[<a onclick="showUser(this)">nickname 4</a>]]></user>
+	  <subgroup id="female_problem_users" class="subElement" title="SPECIAL USERS" iconState="closed">
+			<user class="element" id="2364"><![CDATA[<a onclick="showUser(this)">nickname 1</a>]]></user>
+			<user class="element" id="234234"><![CDATA[<a onclick="showUser(this)">nickname 2</a>]]></user>
+		</subgroup>
+	</group>
+	
+</container>

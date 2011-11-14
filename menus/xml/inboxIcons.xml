@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<IconSet id="theSetId">
+
+<icon id="closed" location="../menus/images/" fileName="closed" extension="gif" className="iconControlClosed" />
+<icon id="open" location="../menus/images/" fileName="open" extension="gif" className="iconControlOpen" />
+
+</IconSet>

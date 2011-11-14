@@ -1,0 +1,64 @@
+
+HTML
+  {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  }
+
+BODY
+  {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    
+    font-family: Tahoma, Verdana, Arial;
+    font-weight: normal;
+    font-size: 10px;
+    color: #000000;
+    
+    height: 100%;
+    width: 100%;
+    
+    background-color: #a9a9a9;
+  }
+  
+A
+  {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }
+  
+A:hover
+  {
+    text-decoration: underline;
+    cursor: pointer;
+    cursor: hand;
+  }
+  
+TABLE
+  {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+  }
+  
+TR
+  {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+  }
+  
+TD
+  {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+  }  
+  
+
